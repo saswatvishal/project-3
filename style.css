@@ -53,6 +53,7 @@ font-size:larger;
 #vishal {
 width: 200px;
 height: 200px;
+margin-top: 2%;
 border-radius: 50%;
 background: url("./vishal.jpg") no-repeat;
 background-size: 400px 250px;
@@ -104,11 +105,12 @@ padding: 4px;
 }
 
 table {
-width:70%;
+width:100%;
 text-align:center;
 margin: 0 auto;
-border:1px solid #d0fd7c;
+border:3px solid #d0fd7c;
 border-collapse: collapse;
+font-size: 100%;
 }
 
 tr:nth-child(1) {
@@ -166,6 +168,14 @@ display: none;
 margin-bottom: 36px;
 margin-top: 0px;
 }
+table {
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+    border:3px solid #d0fd7c;
+    border-collapse: collapse;
+    font-size: 200%;
+    }
 
 .table-wrapper {
 transform: scaleX(0.5) scaleY(0.5);
